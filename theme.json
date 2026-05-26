@@ -1,0 +1,80 @@
+{
+	"$schema": "https://schemas.wp.org/wp/6.9/theme.json",
+	"version": 3,
+	"settings": {
+		"appearanceTools": true,
+		"layout": {
+			"contentSize": "620px",
+			"wideSize": "1000px"
+		},
+		"spacing": {
+			"units": [
+				"%",
+				"px",
+				"em",
+				"rem",
+				"vh",
+				"vw"
+			]
+		},
+		"typography": {
+			"fontFamilies": [
+				{
+					"fontFamily": "ElmsSans, serif",
+					"name": "Elms Sans",
+					"slug": "elms-sans",
+					"fontFace": [
+                {
+                    "fontFamily": "ElmsSans, serif",
+                    "fontWeight": "400 700",
+                    "fontStyle": "normal",
+                    "src": ["file:./assets/fonts/ElmsSans-VariableFont_wght.ttf"]
+                }
+            ]
+        },
+		{
+					"fontFamily": "SairaStencil, serif",
+					"name": "Saira Stencil",
+					"slug": "saira-stencil",
+					"fontFace": [
+                {
+                    "fontFamily": "SairaStencil, serif",
+                    "fontWeight": "400 700",
+                    "fontStyle": "normal",
+                    "src": ["file:./assets/fonts/SairaStencil-VariableFont_wdth,wght.ttf"]
+                }
+            ]
+        }
+	]
+	},
+
+
+	"color": {
+   		 "defaultPalette": false,
+    "custom": true,
+    	"palette": [
+        { "slug": "background",      "color": "#F5F0E8", "name": "Background"      },
+      
+        { "slug": "text",            "color": "#2C2C2C", "name": "Text"            },
+       
+        { "slug": "primary",         "color": "#2D5016", "name": "Primary"         },
+      
+        { "slug": "secondary",       "color": "#8B6914", "name": "Secondary"       }
+    ]
+
+},
+	"useRootPaddingAwareAlignments": true
+},
+
+
+	"templateParts": [
+		{
+			"area": "header",
+			"name": "header"
+		},
+		{
+			"area": "footer",
+			"name": "footer"
+		}
+	]
+}
